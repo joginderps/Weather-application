@@ -2,13 +2,13 @@
 
 --------------------------------------------***Weather Application***---------------------------------------------
 													
-													                        Description
+Description
 
 This weather application is a simple yet effective tool for checking the weather forecast of different locations.
 It provides real-time weather data fetched from an external API, allowing users to stay informed about current weather conditions, temperature, humidity, and more.
 The application features a user-friendly interface with search functionality, making it easy for users to get weather information for specific cities or regions.
 
-													                          Features
+Features
 
 Real-time Weather Data: 
 				Fetches weather data from a weather API to provide accurate and up-to-date information.
@@ -21,13 +21,13 @@ Responsive Design:
 Weather Icons: 
 				Uses weather icons to visually represent different weather conditions for easy understanding.
 
-												                        Technologies Used
+Technologies Used
 1. HTML
 2. CSS
 3. JavaScript
 4. Axios (for API requests)
 
-													                        Installation
+Installation
 
 Download all the files including images and other files attached, run index.html and enter the city name to which you want to find the weather.
 (if there is error in api then visit https://api.openweathermap.org and create a apikey of your own and enter in the JS file under the apiKey).
