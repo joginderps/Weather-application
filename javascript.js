@@ -13,13 +13,14 @@ function updateUI(weatherData) {
     document.getElementById('humidity').textContent = `Humidity: ${weatherData.main.humidity}%`;
     document.getElementById('wind-speed').textContent = `Wind Speed: ${weatherData.wind.speed} m/s`;
     document.getElementById('sky-condition').textContent = `Sky Condition: ${weatherData.weather[0].description}`;
+    document.getElementById('feels-like').textContent = `Feels Like: ${weatherData.main.feels_like}°C`;
 }
 
 document.addEventListener("DOMContentLoaded", function () {
   const cityInput = document.getElementById("city-input");
 
   cityInput.addEventListener("keydown", function (event) {
-    if (event.key === "Enter") {
+    if (event.key === "Enter") {    
       getWeather();
     }
   });
