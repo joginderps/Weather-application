@@ -15,6 +15,16 @@ function updateUI(weatherData) {
     document.getElementById('sky-condition').textContent = `Sky Condition: ${weatherData.weather[0].description}`;
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+  const cityInput = document.getElementById("cityInput");
+
+  cityInput.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+      getWeather();
+    }
+  });
+});
+
 async function getWeather() {
     const city = document.getElementById('city-input').value;
     if (city) {
