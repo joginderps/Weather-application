@@ -16,7 +16,7 @@ function updateUI(weatherData) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  const cityInput = document.getElementById("cityInput");
+  const cityInput = document.getElementById("city-Input");
 
   cityInput.addEventListener("keydown", function (event) {
     if (event.key === "Enter") {
